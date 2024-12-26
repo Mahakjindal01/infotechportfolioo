@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Developer portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(3, 3, 95);
+            color: white;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(5, 5, 134);
+            color: aqua;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            /* color: rgb(202, 202, 250);
+             */
+             color: rgb(205, 253, 83);
+            
+            font-size: 1.02rem;
+        }
+
+        #element {
+            color: rgb(146, 39, 247);
+
+        }
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+        .firstsection {
+            display: flex;
+            justify-content: space-around;
+            margin: 130px 0;
+            align-items: center;
+            height: 250px;
+        }
+
+        .firstsection div {
+            width: 30%;
+        }
+
+        .rightsection img {
+            width: 80%;
+        }
+
+        .leftsection {
+            font-size: 3rem;
+        }
+
+        .purple {
+            color: rgb(146, 39, 247);
+        }
+
+        .secondsection {
+            max-width: 80vw;
+            margin: auto;
+            height: 100vh;
+        }
+
+        main hr {
+            border: 0;
+            background: blueviolet;
+            height: 1.2px;
+            margin: 60px 84px;
+        }
+
+        .secondsection h1 {
+            font-size: 1.9rem;
+            color:#f5b1b1;
+        }
+        .secondsection .text-gray{
+            font-size: 1.7rem;
+            color:#f5b1b1;
+        }
+
+        .secondsection .box{
+            background: white;
+            width: 77vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+        }
+
+        .secondsection .vertical{
+            position: relative;
+            top: -120px;
+            height: 93px;
+            width: 1px;
+            background-color: white;
+            margin: 120px;
+        }
+
+        .vertical-title {
+            position: relative;
+            top: 65px;
+            width: 150px;
+            font-size: 25px;
+
+        }
+
+        .vertical-desc {
+            position: relative;
+            top: 80px;
+            color: gray;
+            width: 150px;
+            font-size: 20px;
+        }
+
+        footer {
+            background-color: #121111;
+        }
+
+        .footer {
+            display: flex;
+            margin: 23px 122px;
+            justify-content: space-evenly;
+            height: 180px;
+        }
+
+        .footer ul {
+            list-style: none;
+            font-size: 20px;
+        }
+        
+        .footer .footer-first {
+            width: 223px;
+            font-size: 35px;
+            color: rgb(250, 168, 168);
+        }
+
+        footer .footer-rights {
+            position: relative;
+            top: -20px;
+            text-align: center;
+            color: gray;
+            padding: 12px 0;
+            font-size: 23px;
+
+        }
+
+        .leftsection .btn {
+            padding: 12px ;
+            background: rgb(1, 79, 79);
+            /* color: rgb(107, 253, 221); */
+            color: white;
+            border: 2px solid white;
+            border-radius: 20px;
+            cursor: pointer;
+            margin: 0 12px;
+        }
+        .leftsection .btn:hover {
+            color: rgb(205, 253, 83);
+        }
+
+        .leftsection .buttons {
+            padding: 50px 0;
+            display: flex;
+            /* color: aquamarine; */
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Company's portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Contact us</a></li>
+                </ul>
+
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">Hi, Our company
+                <span class="purple">INFOTECH</span>
+                <div>provide services:</div>
+                <span id="element"></span>
+                <div class="buttons">
+                    <button class="btn">Take our services</button>
+                    <button class="btn">Visit Github profile</button>
+                </div>
+            </div>
+            <div class="rightsection">
+                <img src="bg.png" alt="" srcset="">
+            </div>
+        </section>
+        <hr>
+        <section class="secondsection">
+            <span class="text-gray">what we have done so far</span>
+            <h1>WORK EXPERIENCE</h1>
+
+            <div class="box">
+                
+                <div class="vertical">
+                    <div class="vertical-title">HTML Development (2010 onwards)</div>
+
+
+                    <div class="vertical-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia,
+                        aspernatur.</div>
+                </div>
+                <div class="vertical">
+                    <div class="vertical-title">JAVA DEVELOPMENT (2015-22)</div>
+
+
+                    <div class="vertical-desc"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus delectus facere natus esse dignissimos. Saepe accusamus cupiditate molestias iste quasi</div>
+                </div>
+                <div class="vertical">
+                    <div class="vertical-title">PYTHON Development (2017-24)</div>
+
+
+                    <div class="vertical-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia,
+                        aspernatur. Lorem ipsum dolor sit amet consectetur adipisicing.</div>
+                </div>
+                <div class="vertical">
+                    <div class="vertical-title">ML ALGORITHMS (2020-24)</div>
+
+
+                    <div class="vertical-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia,
+                        aspernatur.</div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-first">INFOTECH'S DEVELOPER PORTFOLIO</div>
+            <div class="footer-second">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <div class="footer-third">
+                <ul><li>
+                    Home
+                </li>
+                <li>About</li>
+                <li>Services</li>
+                <li>Contact</li>
+                </ul>
+            </div>
+            <div class="footer-fourth">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-rights">
+            www.infotechportfolio.com | All rights reserved
+
+        </div>
+    
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web development', 'Graphic designing', 'APP Development'],
+            typeSpeed: 100,
+        });
+    </script>
+
+</body>
+
+</html>
